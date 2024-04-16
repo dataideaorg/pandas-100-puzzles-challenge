@@ -4,35 +4,75 @@
 
 ## Introduction
 
-Welcome to the 100 Pandas Puzzles Challenge!
-Inspired by [100-pandas-puzzles](https://github.com/ajcr/100-pandas-puzzles), this challenge is designed to test your problem-solving skills using Python with the help of the popular pandas library. The puzzles range in difficulty from beginner to advanced, providing a comprehensive learning experience for participants of all skill levels.
+Inspired by [100 Numpy exerises](https://github.com/rougier/numpy-100), here are 100* short puzzles for testing your knowledge of [pandas'](http://pandas.pydata.org/) power.
 
-## Getting Started
+Since pandas is a large library with many different specialist features and functions, these excercises focus mainly on the fundamentals of manipulating data (indexing, grouping, aggregating, cleaning), making use of the core DataFrame and Series objects. Many of the excerises here are straightforward in that the solutions require no more than a few lines of code (in pandas or NumPy - don't go using pure Python!). Choosing the right methods and following best practices is the underlying goal.
 
-To participate in the challenge, follow these simple steps:
+The exercises are loosely divided in sections. Each section has a difficulty rating; these ratings are subjective, of course, but should be a seen as a rough guide as to how elaborate the required solution needs to be.
 
-1. **Clone the Repository**: Clone or download this repository to your local machine.
-2. **Install Dependencies**: Make sure you have Python installed on your machine. You'll need to install pandas library if you haven't already. You can install it via pip:
-   ```
-   pip install pandas
-   ```
-3. **Start Solving Puzzles**: Navigate to the `puzzles` notebook and start solving the puzzles one by one.
+Good luck solving the puzzles!
 
-## Guidelines
+*\* the list of puzzles is not yet complete! Pull requests or suggestions for additional exercises, corrections and improvements are welcomed.*
 
-- **Code Quality**: Aim for clean, efficient, and readable code. Follow best practices and adhere to Python's PEP 8 style guide.
-- **Documentation**: Document your code appropriately. Use comments to explain your thought process, especially for complex solutions.
-- **Testing**: Always test your solutions thoroughly before considering them complete. Ensure your code handles edge cases gracefully.
-- **Collaboration**: Feel free to collaborate with your peers. Discuss different approaches and learn from each other's strategies.
+## Overview of puzzles
 
-## Contribution
+| Section Name  | Description |  Difficulty |
+| ------------- | ------------- | ------------- |
+| Importing pandas  | Getting started and checking your pandas setup  | Easy |
+| DataFrame basics  | A few of the fundamental routines for selecting, sorting, adding and aggregating data in DataFrames  | Easy  |
+| DataFrames: beyond the basics  | Slightly trickier: you may need to combine two or more methods to get the right answer  | Medium |
+| DataFrames: harder problems  | These might require a bit of thinking outside the box...  | Hard |
+| Series and DatetimeIndex  | Exercises for creating and manipulating Series with datetime data  | Easy/Medium |
+| Cleaning Data  | Making a DataFrame easier to work with  | Easy/Medium |
+| Using MultiIndexes  | Go beyond flat DataFrames with additional index levels  | Medium |
+| Minesweeper | Generate the numbers for safe squares in a Minesweeper grid | Hard |
+| Plotting | Explore pandas' part of plotting functionality to see trends in data | Medium |
 
-If you encounter any issues, have suggestions for improvements, or want to contribute your own puzzles, feel free to submit a pull request or open an issue on GitHub. Your contributions are highly appreciated!
+## Setting up
 
-## Credits
+To tackle the puzzles on your own computer, you'll need a Python 3 environment with the dependencies (namely pandas) installed.
 
-This challenge was created with love by Juma Shafara for DATAIDEA. Special thanks to the pandas library developers for providing such a powerful tool for data analysis and manipulation.
+One way to do this is as follows. I'm using a bash shell, the procedure with Mac OS should be essentially the same. Windows, I'm not sure about.
 
-## License
+1. Check you have Python 3 installed by printing the version of Python:
+```
+python -V
+```
 
-This project is licensed under the [MIT License](LICENSE).
+2. Clone the puzzle repository using Git:
+
+```
+git clone https://github.com/ajcr/100-pandas-puzzles.git
+```
+
+3. Install the dependencies (**caution**: if you don't want to modify any Python modules in your active environment, consider using a virtual environment instead):
+
+```
+python -m pip install -r requirements.txt
+```
+
+4. Launch a jupyter notebook server:
+
+```
+jupyter notebook --notebook-dir=100-pandas-puzzles
+```
+
+You should be able to see the notebooks and launch them in your web browser.
+
+## Contributors
+
+This repository has benefitted from numerous contributors, with those who have sent puzzles and fixes listed in [CONTRIBUTORS](https://github.com/ajcr/100-pandas-puzzles/blob/master/CONTRIBUTORS.md).
+
+Thanks to everyone who has raised an issue too.
+
+## Other links
+
+If you feel like reading up on pandas before starting, the official documentation useful and very extensive. Good places get a broader overview of pandas are:
+
+- [10 minutes to pandas](http://pandas.pydata.org/pandas-docs/version/0.17.0/10min.html)
+- [pandas basics](http://pandas.pydata.org/pandas-docs/version/0.17.0/basics.html)
+- [tutorials](http://pandas.pydata.org/pandas-docs/stable/tutorials.html)
+- [cookbook and idioms](http://pandas.pydata.org/pandas-docs/version/0.17.0/cookbook.html#cookbook)
+- [Guilherme Samora's pandas exercises](https://github.com/guipsamora/pandas_exercises)
+
+There are may other excellent resources and books that are easily searchable and purchaseable.
