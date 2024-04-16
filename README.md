@@ -1,6 +1,6 @@
 # Welcome to the DATAIDEA 100 Pandas Puzzles Challenge!
 
-![Panda Puzzle](https://c4.wallpaperflare.com/wallpaper/503/569/175/kung-fu-panda-panda-wallpaper-preview.jpg)
+![Panda Puzzle](assets/pandas.png)
 
 ## Introduction
 
