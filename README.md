@@ -1,6 +1,6 @@
 # Welcome to the DATAIDEA 100 Pandas Puzzles Challenge!
 
-![Panda Puzzle](assets/pandas.png)
+<img src="assets/pandas.png" style="width: 100%;"/>
 
 ## Introduction
 
