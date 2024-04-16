@@ -31,7 +31,7 @@ If you encounter any issues, have suggestions for improvements, or want to contr
 
 ## Credits
 
-This challenge was created with love by [Your Name/Organization]. Special thanks to the pandas library developers for providing such a powerful tool for data analysis and manipulation.
+This challenge was created with love by Juma Shafara for DATAIDEA. Special thanks to the pandas library developers for providing such a powerful tool for data analysis and manipulation.
 
 ## License
 
